@@ -79,8 +79,7 @@ w3 = Web3(Web3.HTTPProvider('HTTP://127.0.0.1:7545'))
 # @TODO:
 # From `crypto_wallet.py import the functions generate_account, get_balance,
 #  and send_transaction
-# YOUR CODE HERE
-
+from crypto_wallet import generate_account, get_balance, send_transaction
 ################################################################################
 # Fintech Finder Candidate Information
 
@@ -130,8 +129,7 @@ st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 # @TODO:
 #  Call the `generate_account` function and save it as the variable `account`
-# YOUR CODE HERE
-
+account = generate_account()
 ##########################################
 
 # Write the client's Ethereum account address to the sidebar
@@ -146,7 +144,8 @@ st.sidebar.write(account.address)
 # @TODO
 # Call `get_balance` function and pass it your account address
 # Write the returned ether balance to the sidebar
-# YOUR CODE HERE
+get_balance = get_balance(w3, account.address)
+st.sidebar.write(f"Client's Eth Balance: {get_balance}")
 
 ##########################################
 
@@ -241,8 +240,7 @@ st.sidebar.markdown("## Total Wage in Ether")
 
 # @TODO
 # Write the `wage` calculation to the Streamlit sidebar
-# YOUR CODE HERE
-
+wage = hourly_rate * hours
 ##########################################
 # Step 2 - Part 2:
 # * Call the `send_transaction` function and pass it three parameters:
@@ -281,7 +279,7 @@ if st.sidebar.button("Send Transaction"):
 
 # The function that starts the Streamlit application
 # Writes FinTech Finder candidates to the Streamlit page
-get_people()
+get_people(w3)
 
 ################################################################################
 # Step 3: Inspect the Transaction
