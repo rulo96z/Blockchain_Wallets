@@ -13,7 +13,7 @@ We will hire a candidate with the hours need it, after we send the transaction i
 ![](https://github.com/rulo96z/Blockchain_Wallets/blob/master/Images/2.png?raw=True)
 
 - Transaccion review from Ganache:
-![](https://github.com/rulo96z/Blockchain_Wallets/blob/master/Images/3.png?raw=True)
+![](?raw=True)
 
 
 ## Contributors
