@@ -6,10 +6,15 @@ Fintech Finder is an application that its customers can use to find fintech prof
 # Instruction 
 We will hire a candidate with the hours need it, after we send the transaction it will get confirmed on the dashbord in the stramlit web-app. On Ganache we will be able to trace the transaction/ Block. 
 
-![](?raw=true)
-![](?raw=True)
-![](?raw=True)
-![](?raw=True)
+- Profesionals to hire:  
+![](https://github.com/rulo96z/Blockchain_Wallets/blob/master/Images/1.png?raw=true)
+
+- Transaction confirm:
+![](https://github.com/rulo96z/Blockchain_Wallets/blob/master/Images/2.png?raw=True)
+
+- Transaccion review from Ganache:
+![](https://github.com/rulo96z/Blockchain_Wallets/blob/master/Images/3.png?raw=True)
+
 
 ## Contributors
 This code was shared in 2022 Education Services at UCB. 
