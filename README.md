@@ -19,7 +19,7 @@ We will hire a candidate with the hours need it, after we send the transaction i
 ## Contributors
 This code was shared in 2022 Education Services at UCB. 
 
-Additional updates/ uploads for usability was added by rulo.nogales@nogalesinvestments.com
+Additional updates/ uploads for usability was added by raul@nogalesfundmgmt.com
 
 ---
 
